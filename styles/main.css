@@ -60,13 +60,12 @@ body {
    letter-spacing: 10px;
    position:relative;
    text-align:center;
-
- }
+}
 
 .name h1 {
   color: #ffffff;
   font-size: 4rem;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'PT Sans Condensed', sans-serif;
   letter-spacing: 20px;
   position:relative;
   text-align:center;
