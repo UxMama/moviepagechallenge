@@ -1,0 +1,80 @@
+
+
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/sisters4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200vh;
+}
+
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: white;
+  display: block;
+  font-size: 22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding: 100px;
+  text-decoration: none;
+  width: 100px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+ .film h1 {
+   color: #F70000;
+   display: block;
+   font-size: 3rem;
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-align:center;
+   position:relative;
+   line-height: 500px;
+ }
+
+ .title h1 {
+   bottom:250px;
+   color: #ffffff;
+   display: block;
+   font-size: 10rem;
+   font-family: 'Open Sans Condensed', sans-serif;
+   letter-spacing: 10px;
+   position:relative;
+   text-align:center;
+
+ }
+
+.name h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 20px;
+  position:relative;
+  text-align:center;
+  top: 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
